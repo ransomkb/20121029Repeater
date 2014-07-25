@@ -1,0 +1,93 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "1Bk-Ww-UKC"; */
+"1Bk-Ww-UKC.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Name"; ObjectID = "6PI-24-Gfg"; */
+"6PI-24-Gfg.text" = "Name";
+
+/* Class = "IBUILabel"; text = "Press Dismiss to set next deadline."; ObjectID = "6o5-Ix-X8n"; */
+"6o5-Ix-X8n.text" = "Press Dismiss to set next deadline.";
+
+/* Class = "IBUIBarButtonItem"; title = "Done"; ObjectID = "76V-VX-Rin"; */
+"76V-VX-Rin.title" = "Done";
+
+/* Class = "IBUILabel"; text = "Default is 5 PM."; ObjectID = "DE8-rE-FCP"; */
+"DE8-rE-FCP.text" = "Default is 5 PM.";
+
+/* Class = "IBUILabel"; text = "Repeats every day"; ObjectID = "EjA-6u-KPd"; */
+"EjA-6u-KPd.text" = "Repeats every day";
+
+/* Class = "IBUILabel"; text = "Deadline"; ObjectID = "FAb-QX-Nff"; */
+"FAb-QX-Nff.text" = "Deadline";
+
+/* Class = "IBUIButton"; normalTitle = "Delete"; ObjectID = "IUu-Nl-nKP"; */
+"IUu-Nl-nKP.normalTitle" = "Delete";
+
+/* Class = "IBUIButton"; normalTitle = "Set Deadline"; ObjectID = "IcU-aC-hXd"; */
+"IcU-aC-hXd.normalTitle" = "Set Deadline";
+
+/* Class = "IBUINavigationItem"; title = "Day"; ObjectID = "JL4-be-fIm"; */
+"JL4-be-fIm.title" = "Day";
+
+/* Class = "IBUINavigationItem"; title = "Deadline"; ObjectID = "JTx-Ur-Qww"; */
+"JTx-Ur-Qww.title" = "Deadline";
+
+/* Class = "IBUILabel"; text = "Notifier"; ObjectID = "JW2-ll-Wuw"; */
+"JW2-ll-Wuw.text" = "Notifier";
+
+/* Class = "IBUIButton"; normalTitle = "Set Day"; ObjectID = "NRX-hy-TTT"; */
+"NRX-hy-TTT.normalTitle" = "Set Day";
+
+/* Class = "IBUIButton"; normalTitle = "Notify Me"; ObjectID = "PlH-PQ-lrJ"; */
+"PlH-PQ-lrJ.normalTitle" = "Notify Me";
+
+/* Class = "IBUIButton"; normalTitle = "Dismiss"; ObjectID = "SIs-8W-nF8"; */
+"SIs-8W-nF8.normalTitle" = "Dismiss";
+
+/* Class = "IBUINavigationItem"; title = "Details"; ObjectID = "ShS-qX-dVb"; */
+"ShS-qX-dVb.title" = "Details";
+
+/* Class = "IBUINavigationItem"; title = "Editor"; ObjectID = "SnV-J3-C2p"; */
+"SnV-J3-C2p.title" = "Editor";
+
+/* Class = "IBUIButton"; normalTitle = "Set Day"; ObjectID = "SuB-VS-Grv"; */
+"SuB-VS-Grv.normalTitle" = "Set Day";
+
+/* Class = "IBUILabel"; text = "Repeats every X day in a month at X time."; ObjectID = "U7X-Ed-t7f"; */
+"U7X-Ed-t7f.text" = "Repeats every X day in a month at X time.";
+
+/* Class = "IBUILabel"; text = "Repeats every day"; ObjectID = "UbR-Kl-lY8"; */
+"UbR-Kl-lY8.text" = "Repeats every day";
+
+/* Class = "IBUINavigationItem"; title = "Repeaters"; ObjectID = "ZV4-DG-XnN"; */
+"ZV4-DG-XnN.title" = "Repeaters";
+
+/* Class = "IBUIButton"; normalTitle = "Set Deadline"; ObjectID = "bAd-kz-EBg"; */
+"bAd-kz-EBg.normalTitle" = "Set Deadline";
+
+/* Class = "IBUIButton"; normalTitle = "Notify Me"; ObjectID = "bxB-Ms-yGs"; */
+"bxB-Ms-yGs.normalTitle" = "Notify Me";
+
+/* Class = "IBUILabel"; text = "Deadline"; ObjectID = "gID-Qu-Cti"; */
+"gID-Qu-Cti.text" = "Deadline";
+
+/* Class = "IBUITextView"; text = "About Repeat Reminders\n\nThis is a productivity tool that helps you remember things that need to be done BY a certain time, but not At a time.\n\nTo add your first reminder:\nTap on the plus symbol in the top-right corner of the Reminders page.\n\nTap the Reminder to see the Details page and Edit it.\n\nReminders are listed by urgency, depending on your next Deadline.\n* Purple - more than 5 days away\n* Blue - more than 2 days away\n* Green - more than 24 hours away\n* Yellow - less than 24 hours away\n* Orange - less than 6 hours away\n* Red - less than 3 hours away\n* Black - past the Deadline\n \nSwipe Left to set a Reminder to the next Deadline (e.g., it's done)\n\nSwipe Right to reset the Reminder back to the previous Deadline.\n\n(Undismissed Reminders are reset after two days.)\n"; ObjectID = "geQ-ud-qfa"; */
+"geQ-ud-qfa.text" = "About Repeat Reminders\n\nThis is a productivity tool that helps you remember things that need to be done BY a certain time, but not At a time.\n\nTo add your first reminder:\nTap on the plus symbol in the top-right corner of the Reminders page.\n\nTap the Reminder to see the Details page and Edit it.\n\nReminders are listed by urgency, depending on your next Deadline.\n* Purple - more than 5 days away\n* Blue - more than 2 days away\n* Green - more than 24 hours away\n* Yellow - less than 24 hours away\n* Orange - less than 6 hours away\n* Red - less than 3 hours away\n* Black - past the Deadline\n \nSwipe Left to set a Reminder to the next Deadline (e.g., it's done)\n\nSwipe Right to reset the Reminder back to the previous Deadline.\n\n(Undismissed Reminders are reset after two days.)\n";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "jkZ-ZC-9su"; */
+"jkZ-ZC-9su.text" = "Subtitle";
+
+/* Class = "IBUIBarButtonItem"; title = "Done"; ObjectID = "o2G-DW-QPK"; */
+"o2G-DW-QPK.title" = "Done";
+
+/* Class = "IBUILabel"; text = "Notifier"; ObjectID = "odI-Z3-uMV"; */
+"odI-Z3-uMV.text" = "Notifier";
+
+/* Class = "IBUINavigationItem"; title = "Editor"; ObjectID = "pQM-LY-env"; */
+"pQM-LY-env.title" = "Editor";
+
+/* Class = "IBUILabel"; text = "Present Deadline: "; ObjectID = "vd5-Kb-JXj"; */
+"vd5-Kb-JXj.text" = "Present Deadline: ";
+
+/* Class = "IBUILabel"; text = "Repeats every day in a month."; ObjectID = "xFB-BL-Vwv"; */
+"xFB-BL-Vwv.text" = "Repeats every day in a month.";

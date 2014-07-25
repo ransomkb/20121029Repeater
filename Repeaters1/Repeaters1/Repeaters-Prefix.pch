@@ -1,0 +1,26 @@
+//
+// Prefix header for all source files of the 'Repeat Reminders' target in the 'Repeat Reminders' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+// Added to allow removal of NSLog for release build
+// Comment out the one line below for release build. Uncomment it for debugging
+#define DEBUG_MODE
+
+#ifdef DEBUG_MODE
+#define DebugLog( s, ... ) NSLog( @"<%@:(%d)> %@", [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DebugLog( s, ... )
+#endif
+// recommended addition by http://apple.stackexchange.com/questions/58641/how-to-delete-all-nslogs-comments-from-my-xcode-application. IMPORTANT: Find out why.
+#define ALog(...) NSLog(__VA_ARGS__)

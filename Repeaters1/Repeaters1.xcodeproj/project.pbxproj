@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E01BD5C162537EA00A8596D /* PhoneBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E01BD5B162537EA00A8596D /* PhoneBlue.png */; };
+		5E0788C21627F34500D8E108 /* OptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0788C11627F34500D8E108 /* OptionsTableViewController.m */; };
+		5E0789281628070600D8E108 /* Deadline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0789271628070600D8E108 /* Deadline.m */; };
+		5E07892B1628070700D8E108 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E07892A1628070700D8E108 /* Category.m */; };
+		5E07892E1628070700D8E108 /* Repeater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E07892D1628070700D8E108 /* Repeater.m */; };
+		5E0789311628070700D8E108 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0789301628070700D8E108 /* Event.m */; };
+		5E0863451625275100254609 /* PadBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0863371625275100254609 /* PadBlack.png */; };
+		5E0863461625275100254609 /* PadBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0863381625275100254609 /* PadBlue.png */; };
+		5E0863481625275100254609 /* PadOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E08633A1625275100254609 /* PadOrange.png */; };
+		5E0863491625275100254609 /* PadPurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E08633B1625275100254609 /* PadPurple.png */; };
+		5E08634A1625275100254609 /* PadRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E08633C1625275100254609 /* PadRed.png */; };
+		5E08634B1625275100254609 /* PadYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E08633D1625275100254609 /* PadYellow.png */; };
+		5E08634C1625275100254609 /* PhoneBlack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E08633E1625275100254609 /* PhoneBlack.png */; };
+		5E08634F1625275100254609 /* PhoneOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0863411625275100254609 /* PhoneOrange.png */; };
+		5E0863501625275100254609 /* PhonePurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0863421625275100254609 /* PhonePurple.png */; };
+		5E0863511625275100254609 /* PhoneRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0863431625275100254609 /* PhoneRed.png */; };
+		5E0863521625275100254609 /* PhoneYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E0863441625275100254609 /* PhoneYellow.png */; };
+		5E2A613F15DE1B8100E06DAC /* FormatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A613E15DE1B8100E06DAC /* FormatController.m */; };
+		5E3187BB16165D0000799015 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3187BD16165D0000799015 /* iPad.storyboard */; };
+		5E3187BE16165D0900799015 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3187C016165D0900799015 /* iPhone.storyboard */; };
+		5E33261B15C6683F00B01112 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E33261A15C6683F00B01112 /* CoreData.framework */; };
+		5E45F8AC15CA2D6C00B3AE8F /* AddRepeaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E45F8AB15CA2D6C00B3AE8F /* AddRepeaterViewController.m */; };
+		5E5E208415E1FF1F0049AB1E /* DateBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5E208315E1FF1F0049AB1E /* DateBrain.m */; };
+		5E5F409615FF216100C8708B /* RepeatersLaunchIMG.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F409415FF216100C8708B /* RepeatersLaunchIMG.png */; };
+		5E5F409815FF218300C8708B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F409715FF218300C8708B /* Default@2x.png */; };
+		5E5F40A015FF300300C8708B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E5F409F15FF300300C8708B /* Default.png */; };
+		5E767125160FECB500E3A75A /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767124160FECB500E3A75A /* Default-Portrait~ipad.png */; };
+		5E767127160FECBA00E3A75A /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767126160FECBA00E3A75A /* Default-Portrait@2x~ipad.png */; };
+		5E767129160FECC000E3A75A /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767128160FECC000E3A75A /* Default-Landscape~ipad.png */; };
+		5E76712B160FECC700E3A75A /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76712A160FECC700E3A75A /* Default-Landscape@2x~ipad.png */; };
+		5E76713B160FEEB800E3A75A /* Repeaters114G.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76712D160FEEB800E3A75A /* Repeaters114G.png */; };
+		5E76713C160FEEB800E3A75A /* Repeaters144GPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76712E160FEEB800E3A75A /* Repeaters144GPad.png */; };
+		5E76713D160FEEB800E3A75A /* Repeaters57G.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76712F160FEEB800E3A75A /* Repeaters57G.png */; };
+		5E76713E160FEEB800E3A75A /* Repeaters72GPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767130160FEEB800E3A75A /* Repeaters72GPad.png */; };
+		5E76713F160FEEB800E3A75A /* RepeatersLaunch320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767131160FEEB800E3A75A /* RepeatersLaunch320x480.png */; };
+		5E767140160FEEB800E3A75A /* RepeatersLaunch640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767132160FEEB800E3A75A /* RepeatersLaunch640x960.png */; };
+		5E767141160FEEB800E3A75A /* RepLaunch4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767133160FEEB800E3A75A /* RepLaunch4inch.png */; };
+		5E767142160FEEB800E3A75A /* RepPadLaunch768.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767134160FEEB800E3A75A /* RepPadLaunch768.png */; };
+		5E767143160FEEB800E3A75A /* RepPadLaunch768@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767135160FEEB800E3A75A /* RepPadLaunch768@2x.png */; };
+		5E767144160FEEB800E3A75A /* RepSpot100GPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767136160FEEB800E3A75A /* RepSpot100GPad.png */; };
+		5E767145160FEEB800E3A75A /* RepSpot29G.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767137160FEEB800E3A75A /* RepSpot29G.png */; };
+		5E767146160FEEB800E3A75A /* RepSpot50GPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767138160FEEB800E3A75A /* RepSpot50GPad.png */; };
+		5E767147160FEEB800E3A75A /* RepSpot58G.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E767139160FEEB800E3A75A /* RepSpot58G.png */; };
+		5E767148160FEEB800E3A75A /* RepStore1024G.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E76713A160FEEB800E3A75A /* RepStore1024G.png */; };
+		5E9743351602B0AC009455D3 /* NotificationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9743341602B0AC009455D3 /* NotificationsController.m */; };
+		5E9CE45D16120039001784BD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E9CE45F16120039001784BD /* Localizable.strings */; };
+		5EA12B2915BD1E7E0079C689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA12B2815BD1E7E0079C689 /* UIKit.framework */; };
+		5EA12B2B15BD1E7E0079C689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA12B2A15BD1E7E0079C689 /* Foundation.framework */; };
+		5EA12B2D15BD1E7E0079C689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA12B2C15BD1E7E0079C689 /* CoreGraphics.framework */; };
+		5EA12B3315BD1E7E0079C689 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EA12B3115BD1E7E0079C689 /* InfoPlist.strings */; };
+		5EA12B3515BD1E7E0079C689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12B3415BD1E7E0079C689 /* main.m */; };
+		5EA12B3915BD1E7E0079C689 /* RepeatersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12B3815BD1E7E0079C689 /* RepeatersAppDelegate.m */; };
+		5EA12B3F15BD1E7E0079C689 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA12B3E15BD1E7E0079C689 /* DetailsViewController.m */; };
+		5ED271AE15F5DF4F0080897A /* AboutRepeatersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED271AD15F5DF4F0080897A /* AboutRepeatersViewController.m */; };
+		5EDC3B83160C7D8800F063C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EDC3B82160C7D8800F063C7 /* Default-568h@2x.png */; };
+		5EDC9CAC15C258B900EABCCE /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CAB15C258B900EABCCE /* CoreDataTableViewController.m */; };
+		5EDC9CB015C25BC600EABCCE /* RepeatersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CAF15C25BC600EABCCE /* RepeatersTableViewController.m */; };
+		5EDC9CB315C25C6400EABCCE /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CB215C25C6400EABCCE /* EditorViewController.m */; };
+		5EDC9CB615C25D6A00EABCCE /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CB515C25D6A00EABCCE /* DayViewController.m */; };
+		5EDC9CB915C25EA300EABCCE /* DeadlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CB815C25EA300EABCCE /* DeadlineViewController.m */; };
+		5EDC9CBC15C25F0600EABCCE /* NotifyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CBB15C25F0600EABCCE /* NotifyTableViewController.m */; };
+		5EDC9CBF15C274FE00EABCCE /* RepeatReminders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CBD15C274FE00EABCCE /* RepeatReminders.xcdatamodeld */; };
+		5EDC9CCE15C27D0200EABCCE /* Deadline+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CCD15C27D0200EABCCE /* Deadline+Settings.m */; };
+		5EDC9CD115C27D7200EABCCE /* Repeater+Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC9CD015C27D7200EABCCE /* Repeater+Settings.m */; };
+		5EFDFA18163E1E390053AFCF /* PadGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDFA16163E1E390053AFCF /* PadGreen.png */; };
+		5EFDFA19163E1E390053AFCF /* PhoneGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EFDFA17163E1E390053AFCF /* PhoneGreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E01BD5B162537EA00A8596D /* PhoneBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneBlue.png; sourceTree = "<group>"; };
+		5E0788C01627F34500D8E108 /* OptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsTableViewController.h; sourceTree = "<group>"; };
+		5E0788C11627F34500D8E108 /* OptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsTableViewController.m; sourceTree = "<group>"; };
+		5E07890C162803A400D8E108 /* RepeatReminders 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "RepeatReminders 2.xcdatamodel"; sourceTree = "<group>"; };
+		5E0789261628070600D8E108 /* Deadline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deadline.h; sourceTree = "<group>"; };
+		5E0789271628070600D8E108 /* Deadline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deadline.m; sourceTree = "<group>"; };
+		5E0789291628070600D8E108 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		5E07892A1628070700D8E108 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		5E07892C1628070700D8E108 /* Repeater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repeater.h; sourceTree = "<group>"; };
+		5E07892D1628070700D8E108 /* Repeater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repeater.m; sourceTree = "<group>"; };
+		5E07892F1628070700D8E108 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		5E0789301628070700D8E108 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		5E07893216280E6B00D8E108 /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
+		5E0863371625275100254609 /* PadBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadBlack.png; sourceTree = "<group>"; };
+		5E0863381625275100254609 /* PadBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadBlue.png; sourceTree = "<group>"; };
+		5E08633A1625275100254609 /* PadOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadOrange.png; sourceTree = "<group>"; };
+		5E08633B1625275100254609 /* PadPurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadPurple.png; sourceTree = "<group>"; };
+		5E08633C1625275100254609 /* PadRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadRed.png; sourceTree = "<group>"; };
+		5E08633D1625275100254609 /* PadYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadYellow.png; sourceTree = "<group>"; };
+		5E08633E1625275100254609 /* PhoneBlack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneBlack.png; sourceTree = "<group>"; };
+		5E0863411625275100254609 /* PhoneOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneOrange.png; sourceTree = "<group>"; };
+		5E0863421625275100254609 /* PhonePurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhonePurple.png; sourceTree = "<group>"; };
+		5E0863431625275100254609 /* PhoneRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneRed.png; sourceTree = "<group>"; };
+		5E0863441625275100254609 /* PhoneYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneYellow.png; sourceTree = "<group>"; };
+		5E2A613D15DE1B8100E06DAC /* FormatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatController.h; sourceTree = "<group>"; };
+		5E2A613E15DE1B8100E06DAC /* FormatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatController.m; sourceTree = "<group>"; };
+		5E3187BC16165D0000799015 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPad.storyboard; sourceTree = "<group>"; };
+		5E3187BF16165D0900799015 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		5E3187C116165D4600799015 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/iPad.storyboard; sourceTree = "<group>"; };
+		5E3187C216165D5000799015 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		5E3187C31616607600799015 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5E33261A15C6683F00B01112 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5E45F8AA15CA2D6C00B3AE8F /* AddRepeaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRepeaterViewController.h; sourceTree = "<group>"; };
+		5E45F8AB15CA2D6C00B3AE8F /* AddRepeaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRepeaterViewController.m; sourceTree = "<group>"; };
+		5E5E208215E1FF1F0049AB1E /* DateBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateBrain.h; sourceTree = "<group>"; };
+		5E5E208315E1FF1F0049AB1E /* DateBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateBrain.m; sourceTree = "<group>"; };
+		5E5F409415FF216100C8708B /* RepeatersLaunchIMG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RepeatersLaunchIMG.png; path = ../RepeatersLaunchIMG.png; sourceTree = "<group>"; };
+		5E5F409715FF218300C8708B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5E5F409D15FF2FF900C8708B /* RepeatersLaunch320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RepeatersLaunch320x480.png; path = ../RepeatersLaunch320x480.png; sourceTree = "<group>"; };
+		5E5F409F15FF300300C8708B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5E767124160FECB500E3A75A /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		5E767126160FECBA00E3A75A /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		5E767128160FECC000E3A75A /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		5E76712A160FECC700E3A75A /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		5E76712D160FEEB800E3A75A /* Repeaters114G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters114G.png; sourceTree = "<group>"; };
+		5E76712E160FEEB800E3A75A /* Repeaters144GPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters144GPad.png; sourceTree = "<group>"; };
+		5E76712F160FEEB800E3A75A /* Repeaters57G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters57G.png; sourceTree = "<group>"; };
+		5E767130160FEEB800E3A75A /* Repeaters72GPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters72GPad.png; sourceTree = "<group>"; };
+		5E767131160FEEB800E3A75A /* RepeatersLaunch320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepeatersLaunch320x480.png; sourceTree = "<group>"; };
+		5E767132160FEEB800E3A75A /* RepeatersLaunch640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepeatersLaunch640x960.png; sourceTree = "<group>"; };
+		5E767133160FEEB800E3A75A /* RepLaunch4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepLaunch4inch.png; sourceTree = "<group>"; };
+		5E767134160FEEB800E3A75A /* RepPadLaunch768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepPadLaunch768.png; sourceTree = "<group>"; };
+		5E767135160FEEB800E3A75A /* RepPadLaunch768@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RepPadLaunch768@2x.png"; sourceTree = "<group>"; };
+		5E767136160FEEB800E3A75A /* RepSpot100GPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepSpot100GPad.png; sourceTree = "<group>"; };
+		5E767137160FEEB800E3A75A /* RepSpot29G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepSpot29G.png; sourceTree = "<group>"; };
+		5E767138160FEEB800E3A75A /* RepSpot50GPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepSpot50GPad.png; sourceTree = "<group>"; };
+		5E767139160FEEB800E3A75A /* RepSpot58G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepSpot58G.png; sourceTree = "<group>"; };
+		5E76713A160FEEB800E3A75A /* RepStore1024G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RepStore1024G.png; sourceTree = "<group>"; };
+		5E9743331602B0AC009455D3 /* NotificationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsController.h; sourceTree = "<group>"; };
+		5E9743341602B0AC009455D3 /* NotificationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsController.m; sourceTree = "<group>"; };
+		5E9CE45E16120039001784BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5EA12B2415BD1E7E0079C689 /* Repeaters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repeaters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA12B2815BD1E7E0079C689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5EA12B2A15BD1E7E0079C689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EA12B2C15BD1E7E0079C689 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5EA12B3015BD1E7E0079C689 /* Repeaters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Repeaters-Info.plist"; sourceTree = "<group>"; };
+		5EA12B3215BD1E7E0079C689 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5EA12B3415BD1E7E0079C689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EA12B3715BD1E7E0079C689 /* RepeatersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RepeatersAppDelegate.h; sourceTree = "<group>"; };
+		5EA12B3815BD1E7E0079C689 /* RepeatersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RepeatersAppDelegate.m; sourceTree = "<group>"; };
+		5EA12B3D15BD1E7E0079C689 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		5EA12B3E15BD1E7E0079C689 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		5EA2087D15F9E4A800B53933 /* Repeaters-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repeaters-Prefix.pch"; sourceTree = "<group>"; };
+		5EB0B1BC16159BB0009D1787 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5EB5888816085636003BE1E2 /* Repeaters114G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters114G.png; sourceTree = "<group>"; };
+		5EB5888A1608563B003BE1E2 /* Repeaters57G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters57G.png; sourceTree = "<group>"; };
+		5ED271AC15F5DF4F0080897A /* AboutRepeatersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutRepeatersViewController.h; sourceTree = "<group>"; };
+		5ED271AD15F5DF4F0080897A /* AboutRepeatersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutRepeatersViewController.m; sourceTree = "<group>"; };
+		5ED4D73F160AD5BD00AD5EB5 /* Repeaters144GPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters144GPad.png; sourceTree = "<group>"; };
+		5ED4D742160AD5D100AD5EB5 /* Repeaters72GPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Repeaters72GPad.png; sourceTree = "<group>"; };
+		5EDC3B82160C7D8800F063C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5EDC9CAA15C258B900EABCCE /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		5EDC9CAB15C258B900EABCCE /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		5EDC9CAE15C25BC600EABCCE /* RepeatersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatersTableViewController.h; sourceTree = "<group>"; };
+		5EDC9CAF15C25BC600EABCCE /* RepeatersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatersTableViewController.m; sourceTree = "<group>"; };
+		5EDC9CB115C25C6400EABCCE /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		5EDC9CB215C25C6400EABCCE /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		5EDC9CB415C25D6A00EABCCE /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		5EDC9CB515C25D6A00EABCCE /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		5EDC9CB715C25EA300EABCCE /* DeadlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadlineViewController.h; sourceTree = "<group>"; };
+		5EDC9CB815C25EA300EABCCE /* DeadlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeadlineViewController.m; sourceTree = "<group>"; };
+		5EDC9CBA15C25F0600EABCCE /* NotifyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifyTableViewController.h; sourceTree = "<group>"; };
+		5EDC9CBB15C25F0600EABCCE /* NotifyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotifyTableViewController.m; sourceTree = "<group>"; };
+		5EDC9CBE15C274FE00EABCCE /* RepeatReminders.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RepeatReminders.xcdatamodel; sourceTree = "<group>"; };
+		5EDC9CCC15C27D0200EABCCE /* Deadline+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deadline+Settings.h"; sourceTree = "<group>"; };
+		5EDC9CCD15C27D0200EABCCE /* Deadline+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deadline+Settings.m"; sourceTree = "<group>"; };
+		5EDC9CCF15C27D7200EABCCE /* Repeater+Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Repeater+Settings.h"; sourceTree = "<group>"; };
+		5EDC9CD015C27D7200EABCCE /* Repeater+Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Repeater+Settings.m"; sourceTree = "<group>"; };
+		5EFDFA16163E1E390053AFCF /* PadGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PadGreen.png; sourceTree = "<group>"; };
+		5EFDFA17163E1E390053AFCF /* PhoneGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PhoneGreen.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EA12B2115BD1E7E0079C689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E33261B15C6683F00B01112 /* CoreData.framework in Frameworks */,
+				5EA12B2915BD1E7E0079C689 /* UIKit.framework in Frameworks */,
+				5EA12B2B15BD1E7E0079C689 /* Foundation.framework in Frameworks */,
+				5EA12B2D15BD1E7E0079C689 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E76712C160FEEB800E3A75A /* RepeaterImages */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDFA16163E1E390053AFCF /* PadGreen.png */,
+				5EFDFA17163E1E390053AFCF /* PhoneGreen.png */,
+				5E0863371625275100254609 /* PadBlack.png */,
+				5E0863381625275100254609 /* PadBlue.png */,
+				5E08633A1625275100254609 /* PadOrange.png */,
+				5E08633B1625275100254609 /* PadPurple.png */,
+				5E08633C1625275100254609 /* PadRed.png */,
+				5E08633D1625275100254609 /* PadYellow.png */,
+				5E08633E1625275100254609 /* PhoneBlack.png */,
+				5E01BD5B162537EA00A8596D /* PhoneBlue.png */,
+				5E0863411625275100254609 /* PhoneOrange.png */,
+				5E0863421625275100254609 /* PhonePurple.png */,
+				5E0863431625275100254609 /* PhoneRed.png */,
+				5E0863441625275100254609 /* PhoneYellow.png */,
+				5E5F409415FF216100C8708B /* RepeatersLaunchIMG.png */,
+				5E5F409D15FF2FF900C8708B /* RepeatersLaunch320x480.png */,
+				5E76712D160FEEB800E3A75A /* Repeaters114G.png */,
+				5E76712E160FEEB800E3A75A /* Repeaters144GPad.png */,
+				5E76712F160FEEB800E3A75A /* Repeaters57G.png */,
+				5E767130160FEEB800E3A75A /* Repeaters72GPad.png */,
+				5E767131160FEEB800E3A75A /* RepeatersLaunch320x480.png */,
+				5E767132160FEEB800E3A75A /* RepeatersLaunch640x960.png */,
+				5E767133160FEEB800E3A75A /* RepLaunch4inch.png */,
+				5E767134160FEEB800E3A75A /* RepPadLaunch768.png */,
+				5E767135160FEEB800E3A75A /* RepPadLaunch768@2x.png */,
+				5E767136160FEEB800E3A75A /* RepSpot100GPad.png */,
+				5E767137160FEEB800E3A75A /* RepSpot29G.png */,
+				5E767138160FEEB800E3A75A /* RepSpot50GPad.png */,
+				5E767139160FEEB800E3A75A /* RepSpot58G.png */,
+				5E76713A160FEEB800E3A75A /* RepStore1024G.png */,
+			);
+			path = RepeaterImages;
+			sourceTree = "<group>";
+		};
+		5EA12B1915BD1E7E0079C689 = {
+			isa = PBXGroup;
+			children = (
+				5E76712A160FECC700E3A75A /* Default-Landscape@2x~ipad.png */,
+				5E767128160FECC000E3A75A /* Default-Landscape~ipad.png */,
+				5E767126160FECBA00E3A75A /* Default-Portrait@2x~ipad.png */,
+				5E767124160FECB500E3A75A /* Default-Portrait~ipad.png */,
+				5EDC3B82160C7D8800F063C7 /* Default-568h@2x.png */,
+				5ED4D742160AD5D100AD5EB5 /* Repeaters72GPad.png */,
+				5ED4D73F160AD5BD00AD5EB5 /* Repeaters144GPad.png */,
+				5EB5888A1608563B003BE1E2 /* Repeaters57G.png */,
+				5EB5888816085636003BE1E2 /* Repeaters114G.png */,
+				5E5F409F15FF300300C8708B /* Default.png */,
+				5E5F409715FF218300C8708B /* Default@2x.png */,
+				5EA12B2E15BD1E7E0079C689 /* Repeaters1 */,
+				5EA12B2715BD1E7E0079C689 /* Frameworks */,
+				5EA12B2515BD1E7E0079C689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EA12B2515BD1E7E0079C689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EA12B2415BD1E7E0079C689 /* Repeaters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EA12B2715BD1E7E0079C689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E33261A15C6683F00B01112 /* CoreData.framework */,
+				5EA12B2815BD1E7E0079C689 /* UIKit.framework */,
+				5EA12B2A15BD1E7E0079C689 /* Foundation.framework */,
+				5EA12B2C15BD1E7E0079C689 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EA12B2E15BD1E7E0079C689 /* Repeaters1 */ = {
+			isa = PBXGroup;
+			children = (
+				5EA12B3715BD1E7E0079C689 /* RepeatersAppDelegate.h */,
+				5EA12B3815BD1E7E0079C689 /* RepeatersAppDelegate.m */,
+				5E0788C01627F34500D8E108 /* OptionsTableViewController.h */,
+				5E0788C11627F34500D8E108 /* OptionsTableViewController.m */,
+				5E07893216280E6B00D8E108 /* SplitViewBarButtonItemPresenter.h */,
+				5EDC9CAE15C25BC600EABCCE /* RepeatersTableViewController.h */,
+				5EDC9CAF15C25BC600EABCCE /* RepeatersTableViewController.m */,
+				5EA12B3D15BD1E7E0079C689 /* DetailsViewController.h */,
+				5EA12B3E15BD1E7E0079C689 /* DetailsViewController.m */,
+				5E45F8AA15CA2D6C00B3AE8F /* AddRepeaterViewController.h */,
+				5E45F8AB15CA2D6C00B3AE8F /* AddRepeaterViewController.m */,
+				5EDC9CB115C25C6400EABCCE /* EditorViewController.h */,
+				5EDC9CB215C25C6400EABCCE /* EditorViewController.m */,
+				5EDC9CB415C25D6A00EABCCE /* DayViewController.h */,
+				5EDC9CB515C25D6A00EABCCE /* DayViewController.m */,
+				5EDC9CB715C25EA300EABCCE /* DeadlineViewController.h */,
+				5EDC9CB815C25EA300EABCCE /* DeadlineViewController.m */,
+				5EDC9CBA15C25F0600EABCCE /* NotifyTableViewController.h */,
+				5EDC9CBB15C25F0600EABCCE /* NotifyTableViewController.m */,
+				5ED271AC15F5DF4F0080897A /* AboutRepeatersViewController.h */,
+				5ED271AD15F5DF4F0080897A /* AboutRepeatersViewController.m */,
+				5E2A613D15DE1B8100E06DAC /* FormatController.h */,
+				5E2A613E15DE1B8100E06DAC /* FormatController.m */,
+				5E5E208215E1FF1F0049AB1E /* DateBrain.h */,
+				5E5E208315E1FF1F0049AB1E /* DateBrain.m */,
+				5E9743331602B0AC009455D3 /* NotificationsController.h */,
+				5E9743341602B0AC009455D3 /* NotificationsController.m */,
+				5E3187BD16165D0000799015 /* iPad.storyboard */,
+				5E3187C016165D0900799015 /* iPhone.storyboard */,
+				5EDC9CBD15C274FE00EABCCE /* RepeatReminders.xcdatamodeld */,
+				5E0789261628070600D8E108 /* Deadline.h */,
+				5E0789271628070600D8E108 /* Deadline.m */,
+				5E0789291628070600D8E108 /* Category.h */,
+				5E07892A1628070700D8E108 /* Category.m */,
+				5E07892C1628070700D8E108 /* Repeater.h */,
+				5E07892D1628070700D8E108 /* Repeater.m */,
+				5E07892F1628070700D8E108 /* Event.h */,
+				5E0789301628070700D8E108 /* Event.m */,
+				5EDC9CCC15C27D0200EABCCE /* Deadline+Settings.h */,
+				5EDC9CCD15C27D0200EABCCE /* Deadline+Settings.m */,
+				5EDC9CCF15C27D7200EABCCE /* Repeater+Settings.h */,
+				5EDC9CD015C27D7200EABCCE /* Repeater+Settings.m */,
+				5EA12B2F15BD1E7E0079C689 /* Supporting Files */,
+			);
+			path = Repeaters1;
+			sourceTree = "<group>";
+		};
+		5EA12B2F15BD1E7E0079C689 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E9CE45F16120039001784BD /* Localizable.strings */,
+				5E76712C160FEEB800E3A75A /* RepeaterImages */,
+				5EDC9CAA15C258B900EABCCE /* CoreDataTableViewController.h */,
+				5EDC9CAB15C258B900EABCCE /* CoreDataTableViewController.m */,
+				5EA12B3015BD1E7E0079C689 /* Repeaters-Info.plist */,
+				5EA12B3115BD1E7E0079C689 /* InfoPlist.strings */,
+				5EA12B3415BD1E7E0079C689 /* main.m */,
+				5EA2087D15F9E4A800B53933 /* Repeaters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EA12B2315BD1E7E0079C689 /* Repeaters1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EA12B4215BD1E7E0079C689 /* Build configuration list for PBXNativeTarget "Repeaters1" */;
+			buildPhases = (
+				5EA12B2015BD1E7E0079C689 /* Sources */,
+				5EA12B2115BD1E7E0079C689 /* Frameworks */,
+				5EA12B2215BD1E7E0079C689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Repeaters1;
+			productName = Repeaters1;
+			productReference = 5EA12B2415BD1E7E0079C689 /* Repeaters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EA12B1B15BD1E7E0079C689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Repeaters;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Hart Book";
+			};
+			buildConfigurationList = 5EA12B1E15BD1E7E0079C689 /* Build configuration list for PBXProject "Repeaters1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+				Base,
+			);
+			mainGroup = 5EA12B1915BD1E7E0079C689;
+			productRefGroup = 5EA12B2515BD1E7E0079C689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EA12B2315BD1E7E0079C689 /* Repeaters1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EA12B2215BD1E7E0079C689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA12B3315BD1E7E0079C689 /* InfoPlist.strings in Resources */,
+				5E5F409615FF216100C8708B /* RepeatersLaunchIMG.png in Resources */,
+				5E5F409815FF218300C8708B /* Default@2x.png in Resources */,
+				5E5F40A015FF300300C8708B /* Default.png in Resources */,
+				5EDC3B83160C7D8800F063C7 /* Default-568h@2x.png in Resources */,
+				5E767125160FECB500E3A75A /* Default-Portrait~ipad.png in Resources */,
+				5E767127160FECBA00E3A75A /* Default-Portrait@2x~ipad.png in Resources */,
+				5E767129160FECC000E3A75A /* Default-Landscape~ipad.png in Resources */,
+				5E76712B160FECC700E3A75A /* Default-Landscape@2x~ipad.png in Resources */,
+				5E76713B160FEEB800E3A75A /* Repeaters114G.png in Resources */,
+				5E76713C160FEEB800E3A75A /* Repeaters144GPad.png in Resources */,
+				5E76713D160FEEB800E3A75A /* Repeaters57G.png in Resources */,
+				5E76713E160FEEB800E3A75A /* Repeaters72GPad.png in Resources */,
+				5E76713F160FEEB800E3A75A /* RepeatersLaunch320x480.png in Resources */,
+				5E767140160FEEB800E3A75A /* RepeatersLaunch640x960.png in Resources */,
+				5E767141160FEEB800E3A75A /* RepLaunch4inch.png in Resources */,
+				5E767142160FEEB800E3A75A /* RepPadLaunch768.png in Resources */,
+				5E767143160FEEB800E3A75A /* RepPadLaunch768@2x.png in Resources */,
+				5E767144160FEEB800E3A75A /* RepSpot100GPad.png in Resources */,
+				5E767145160FEEB800E3A75A /* RepSpot29G.png in Resources */,
+				5E767146160FEEB800E3A75A /* RepSpot50GPad.png in Resources */,
+				5E767147160FEEB800E3A75A /* RepSpot58G.png in Resources */,
+				5E767148160FEEB800E3A75A /* RepStore1024G.png in Resources */,
+				5E9CE45D16120039001784BD /* Localizable.strings in Resources */,
+				5E3187BB16165D0000799015 /* iPad.storyboard in Resources */,
+				5E3187BE16165D0900799015 /* iPhone.storyboard in Resources */,
+				5E0863451625275100254609 /* PadBlack.png in Resources */,
+				5E0863461625275100254609 /* PadBlue.png in Resources */,
+				5E0863481625275100254609 /* PadOrange.png in Resources */,
+				5E0863491625275100254609 /* PadPurple.png in Resources */,
+				5E08634A1625275100254609 /* PadRed.png in Resources */,
+				5E08634B1625275100254609 /* PadYellow.png in Resources */,
+				5E08634C1625275100254609 /* PhoneBlack.png in Resources */,
+				5E08634F1625275100254609 /* PhoneOrange.png in Resources */,
+				5E0863501625275100254609 /* PhonePurple.png in Resources */,
+				5E0863511625275100254609 /* PhoneRed.png in Resources */,
+				5E0863521625275100254609 /* PhoneYellow.png in Resources */,
+				5E01BD5C162537EA00A8596D /* PhoneBlue.png in Resources */,
+				5EFDFA18163E1E390053AFCF /* PadGreen.png in Resources */,
+				5EFDFA19163E1E390053AFCF /* PhoneGreen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EA12B2015BD1E7E0079C689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EA12B3515BD1E7E0079C689 /* main.m in Sources */,
+				5EA12B3915BD1E7E0079C689 /* RepeatersAppDelegate.m in Sources */,
+				5EA12B3F15BD1E7E0079C689 /* DetailsViewController.m in Sources */,
+				5EDC9CAC15C258B900EABCCE /* CoreDataTableViewController.m in Sources */,
+				5EDC9CB015C25BC600EABCCE /* RepeatersTableViewController.m in Sources */,
+				5EDC9CB315C25C6400EABCCE /* EditorViewController.m in Sources */,
+				5EDC9CB615C25D6A00EABCCE /* DayViewController.m in Sources */,
+				5EDC9CB915C25EA300EABCCE /* DeadlineViewController.m in Sources */,
+				5EDC9CBC15C25F0600EABCCE /* NotifyTableViewController.m in Sources */,
+				5EDC9CBF15C274FE00EABCCE /* RepeatReminders.xcdatamodeld in Sources */,
+				5EDC9CCE15C27D0200EABCCE /* Deadline+Settings.m in Sources */,
+				5EDC9CD115C27D7200EABCCE /* Repeater+Settings.m in Sources */,
+				5E45F8AC15CA2D6C00B3AE8F /* AddRepeaterViewController.m in Sources */,
+				5E2A613F15DE1B8100E06DAC /* FormatController.m in Sources */,
+				5E5E208415E1FF1F0049AB1E /* DateBrain.m in Sources */,
+				5ED271AE15F5DF4F0080897A /* AboutRepeatersViewController.m in Sources */,
+				5E9743351602B0AC009455D3 /* NotificationsController.m in Sources */,
+				5E0788C21627F34500D8E108 /* OptionsTableViewController.m in Sources */,
+				5E0789281628070600D8E108 /* Deadline.m in Sources */,
+				5E07892B1628070700D8E108 /* Category.m in Sources */,
+				5E07892E1628070700D8E108 /* Repeater.m in Sources */,
+				5E0789311628070700D8E108 /* Event.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E3187BD16165D0000799015 /* iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3187BC16165D0000799015 /* en */,
+				5E3187C116165D4600799015 /* ja */,
+			);
+			name = iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		5E3187C016165D0900799015 /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3187BF16165D0900799015 /* en */,
+				5E3187C216165D5000799015 /* ja */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		5E9CE45F16120039001784BD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9CE45E16120039001784BD /* en */,
+				5EB0B1BC16159BB0009D1787 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5EA12B3115BD1E7E0079C689 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EA12B3215BD1E7E0079C689 /* en */,
+				5E3187C31616607600799015 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EA12B4015BD1E7E0079C689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Ransom Barber (PMB294XK46)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=*]" = "A22075A4-1F46-49C6-BC1E-1671AE521EFE";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5EA12B4115BD1E7E0079C689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Ransom Barber";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D6BBD030-91D3-4957-9539-5B4598CC7EF2";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EA12B4315BD1E7E0079C689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Repeaters1/Repeaters-Prefix.pch";
+				INFOPLIST_FILE = "Repeaters1/Repeaters-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = Repeaters;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5EA12B4415BD1E7E0079C689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Repeaters1/Repeaters-Prefix.pch";
+				INFOPLIST_FILE = "Repeaters1/Repeaters-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = Repeaters;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EA12B1E15BD1E7E0079C689 /* Build configuration list for PBXProject "Repeaters1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA12B4015BD1E7E0079C689 /* Debug */,
+				5EA12B4115BD1E7E0079C689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EA12B4215BD1E7E0079C689 /* Build configuration list for PBXNativeTarget "Repeaters1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EA12B4315BD1E7E0079C689 /* Debug */,
+				5EA12B4415BD1E7E0079C689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5EDC9CBD15C274FE00EABCCE /* RepeatReminders.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5E07890C162803A400D8E108 /* RepeatReminders 2.xcdatamodel */,
+				5EDC9CBE15C274FE00EABCCE /* RepeatReminders.xcdatamodel */,
+			);
+			currentVersion = 5EDC9CBE15C274FE00EABCCE /* RepeatReminders.xcdatamodel */;
+			path = RepeatReminders.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5EA12B1B15BD1E7E0079C689 /* Project object */;
+}

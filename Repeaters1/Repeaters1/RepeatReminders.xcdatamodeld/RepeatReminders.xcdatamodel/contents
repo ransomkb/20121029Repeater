@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C54" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Deadline" representedClassName="Deadline" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dayNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hour" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="last" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="minute" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="next" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="notify" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notifyNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="ordinal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ordinalNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="whichReminder" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Repeater" inverseName="deadlines" inverseEntity="Repeater" syncable="YES"/>
+    </entity>
+    <entity name="Repeater" representedClassName="Repeater" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="deadlines" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Deadline" inverseName="whichReminder" inverseEntity="Deadline" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Deadline" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="Repeater" positionX="0" positionY="0" width="128" height="75"/>
+    </elements>
+</model>
